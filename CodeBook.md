@@ -1,9 +1,23 @@
 ## Study Design
 
+The data used for this project was taken from th "Human Activity Recognition Using Smartphones Data Set".  For more information about the study design, please see the website for the experiment from which this data was taken: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 ## Code Book
+* The names of the variables from measurements are abreviated as follows
+* variabes that start with an f are frequency domain signals
+* variabes that start with a t are time domain signals
+* variables with Body apply to body movement
+* variables with Grav apply to gravity
+* variables with Acc apply to acceleration
+* variables with Gyro apply to rotation
+* variables with Mean measure the mean
+* variables with Jerk (may) measure the instannt acceleration
+* variables with Std measure the standard deviation
+* variables with X, Y, or Z apply to directions
+
 ### Variables
-* "subject"
-* "activity"
+* "subject" - the subject doing the activity
+* "activity" - the type of activity during the observation
 * "tBodyAccMeanX"
 * "tBodyAccMeanY"
 * "tBodyAccMeanZ"
