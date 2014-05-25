@@ -3,7 +3,7 @@
 The data used for this project was taken from th "Human Activity Recognition Using Smartphones Data Set".  For more information about the study design, please see the website for the experiment from which this data was taken: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Code Book
-* The names of the variables from measurements are abreviated as follows
+The names of the variables from measurements are abreviated as follows
 * variabes that start with an f are frequency domain signals
 * variabes that start with a t are time domain signals
 * variables with Body apply to body movement
